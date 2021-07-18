@@ -3,7 +3,7 @@ from time import sleep
 import requests
 import json
 
-#controlLed = PWMLED(17)
+controlLed = PWMLED(17)
 
 jsonData = {
     "username": "rohit",
