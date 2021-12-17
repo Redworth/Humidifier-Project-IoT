@@ -21,12 +21,13 @@ while True:
         dictResponse = json.loads(pollres.content)
         currentVal = dictResponse['intensity']
         controlLed.value = currentVal/100
+        print(currentVal)
+
     else:
         dictResponse = json.loads(pollres.content)
         if currentVal != dictResponse['intensity']:
             currentVal = dictResponse['intensity']
-            controlLed.value = currentVal/100  
+            controlLed.value = currentVal/100
+            print(currentVal)
 
     sleep(0.5)
-    
-    
