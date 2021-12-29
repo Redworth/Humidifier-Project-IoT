@@ -19,4 +19,6 @@ The environment is now ready for development.
 Prerequisites:
 - Environment is setup (see above)
 
-Run `python3 wifi_connect.py` to begin a development server than can recieve Wi-Fi credentials. Run `python3 main_loop.py` to begin a development server that can run the main process of requesting data.
+Run `python3 wifi_connect.py` to begin a development server that can recieve Wi-Fi credentials from the mobile app. This will keep a web server running that can receive Wi-Fi credentials in JSON format when run as a Linux service. 
+
+Similarly, run `python3 main_loop.py` to begin a development server that can run the main process of requesting data.
