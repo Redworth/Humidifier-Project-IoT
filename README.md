@@ -9,7 +9,9 @@ Prerequisites:
 
 Clone the git repository (https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) on the device. Then create a feature branch (https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the code.
 
-Install the needed dependencies in `wifi_connect.py` and `main_loop.py` using `pip3`.
+Install the below dependencies using `pip3`.
+- `requests`
+- `flask`
 
 The environment is now ready for development.
 
